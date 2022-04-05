@@ -1,0 +1,5 @@
+---
+elk_stack_version: "7.14.0"
+kibana_install_type: remote
+kibana_rpm_url: https://artifacts.elastic.co/downloads/kibana/kibana-{{ kibana_version }}-x86_64.rpm
+kibana_deb_url: https://artifacts.elastic.co/downloads/kibana/kibana-{{ kibana_version }}-amd64.deb
