@@ -1,0 +1,15 @@
+---
+# This is an example playbook to execute Ansible tests.
+- name: Verify
+  hosts: kibana
+  gather_facts: false
+  tasks:
+  - name: Kibana log check
+    wait_for:
+      path: /var/log/kibana/kibana.log
+      state: present
+      timeout: 60
+  - name: Kibana port check
+    wait_for:
+      port: 5601
+      timeout: 60
