@@ -38,6 +38,6 @@ BSD
 
 Author Information
 ------------------
-Add webhook
+Add webhook new
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
